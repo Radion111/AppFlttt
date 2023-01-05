@@ -80,6 +80,8 @@ class DataWid extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50.0),
                         side: BorderSide(color: Colors.blue),
                       )),
+                      
+                      // fixedSize: MaterialStateProperty.all(Size(10, 10)),
                       padding: MaterialStateProperty.all(EdgeInsets.all(30))),
 
                   child: Text('Send data'),
